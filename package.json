@@ -1,0 +1,20 @@
+{
+  "name": "demo-read-message-device-to-iothub",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "repository": "https://jirachaic@dev.azure.com/jirachaic/demo-azure-iot-hub/_git/demo-read-message-device-to-iothub",
+  "author": "Jirachai C. <jirachai.c@outlook.com>",
+  "license": "MIT",
+  "scripts": {
+    "watch": "tsc -w",
+    "build": "tsc",
+    "start": "yarn build && node dist/index.js"
+  },
+  "devDependencies": {
+    "typescript": "^4.2.2"
+  },
+  "dependencies": {
+    "@azure/event-hubs": "^5.4.0",
+    "dotenv": "^8.2.0"
+  }
+}
